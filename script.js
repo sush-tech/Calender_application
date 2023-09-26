@@ -1,7 +1,7 @@
 setInterval(scheduleTracker, 1000); 
 function scheduleTracker() {
   let today = dayjs();
-  $("#currentDay").text(today.format("dddd, MMMM Do YYYY, h:mm:ss a")); //current date time format
+  $("#currentDay").text(today.format("dddd, MMMM D YYYY, h:mm:ss a")); //current date time format
 
   var currentHour = today.hour(); 
   // for the colour variations for timeblock
